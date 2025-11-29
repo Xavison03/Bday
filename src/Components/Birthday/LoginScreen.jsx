@@ -10,7 +10,7 @@ export default function LoginScreen({ onSuccess }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (password.toLowerCase() === '20041129') {
+    if (password.toLowerCase() === 'garfield9') {
       onSuccess();
     } else {
       setError(true);
