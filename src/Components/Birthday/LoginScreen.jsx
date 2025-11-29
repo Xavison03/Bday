@@ -10,7 +10,7 @@ export default function LoginScreen({ onSuccess }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (password.toLowerCase() === 'taehyung') {
+    if (password.toLowerCase() === '20041129') {
       onSuccess();
     } else {
       setError(true);
@@ -191,7 +191,7 @@ export default function LoginScreen({ onSuccess }) {
           transition={{ delay: 2 }}
           className="text-center text-white/20 text-xs mt-8 tracking-wider"
         >
-          hint: a name that echoes through Seoul... 💜
+          hint: It’s the day your story began, like episode 1 of a K-drama. 💜
         </motion.p>
       </motion.div>
     </motion.div>
